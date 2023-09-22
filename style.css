@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+   
+}
+img{
+    max-width: 100%;
+}
+/* nav bar */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    padding: 8px;
+}
+.itens-menu {
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.itens-menu li{
+    cursor:pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    list-style-type:none;
+}
+.itens-menu li:hover{
+    font-weight: bold;
+}
+
+
+/* painel */
+.div-painel{
+    background-image: url(./images/painel.jpg);
+    height:70vh;
+    width:100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-painel h1{
+    color:white;
+    font-size:60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}
+/* quem somos */
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:430px;
+    width:100%;
+}
+#img-quem-somos{
+    height: 200px;
+    padding-top: 50px;
+}
+.quem-somos h2{
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 50px;
+}
+.quem-somos p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    width: 550px;
+    text-align: center;
+}
+
+.img4{
+    background-image: url(./images/4.jpg);
+    height:600px;
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container-ladrilhos{
+    padding-top: 150px;
+}
+.container-ladrilhos div{
+    float: left;
+}
+#img2{
+    background-image: url(./images/2.jpg);
+    height:300px;
+    width:25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#img3{
+    background-image: url(./images/3.jpg);
+    height:300px;
+    width:25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#img1{
+    background-image: url(./images/1.jpg);
+    height:300px;
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* local */
+.container-local{
+    width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#img-onde-estamos{
+    height: 200px;
+    padding-top: 50px;
+}
+.container-local h2{
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 50px;
+}
+.container-local p{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    width: 550px;
+    text-align: center;
+}
+/* contatos */
+.contato{
+    background-image: url(./images/fundo-contato.jpg);
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contato h2 {
+    padding-left:60%;
+}
+.contato p {
+    padding-left:60%;
+}
+.contato h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.contato p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    
+}
+/* rodapé */
+.rodape{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-image: url(./images/fundo-rodape.jpg);
+    justify-content: space-between;
+}
+.div-rodape1{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-between;
+}
+.div-rodape1 p{
+    color:white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.div-rodape2 img{
+    height: 50px;
+    width: 50px;
+    display: flex;  
+}
+.div-rodape2{
+     padding-right: 20px;
+     justify-content: space-around;
+     display: flex;
+    flex-direction: column;
+}
+.div-rodape2 ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    gap: 15px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+
+}
+.div-rodape2 li:hover{
+    font-weight: bold;
+}
+
+#div-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:15px;
+}
