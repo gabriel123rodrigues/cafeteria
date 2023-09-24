@@ -1,0 +1,62 @@
+
+
+
+@media(max-width: 767.98px){
+
+}
+
+@media(max-width: 991.98px){
+   .quem-somos p {
+      font-size: 2rem;
+      width: 350px;
+   }
+   .container-local p{
+      width: 350px;
+   }
+   .contato h2 {
+      padding-left:20%;
+  }
+  .contato p {
+      padding-left:20%;
+  }
+}
+  
+@media(max-width: 425px){
+   .nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+   }
+   .nav-bar ul{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+   }
+   .logo{
+    
+    flex-direction: column;
+    display: flex;
+   }
+   .div-painel h1{
+      font-size: 2.5rem;
+   }
+   .quem-somos p {
+      font-size: 1.6rem;
+      width: 320px;
+   }
+   .quem-somos p {
+      font-size: 1.6rem;
+      width: 250px;
+   }
+   .container-local p{
+      width: 250px;
+   }
+   .contato h2 {
+      padding-left:15%;
+  }
+  .contato p {
+      padding-left:15%;
+  }
+  
+}
